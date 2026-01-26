@@ -1,0 +1,43 @@
+button{
+    background-color: #1a73e8;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease;
+
+} 
+
+button:hover{
+
+    background-color: #0b3c91;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+
+}
+
+button:active{
+
+transform: translateY(0);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+
+
+}
+
+button:disabled{
+background-color: #cccccc;
+    cursor: not-allowed;
+    box-shadow: none;
+
+
+
+
+
+
+
+
+}
+
